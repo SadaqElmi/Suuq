@@ -1,0 +1,164 @@
+body {
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  object-fit: cover;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(231, 42, 9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+nav h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  padding-left: 30px;
+  list-style-type: none;
+}
+li a {
+  padding-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  width: 100px;
+  height: 40px;
+}
+.search input {
+  padding-left: 10px;
+  margin-left: -50px;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 192, 192);
+}
+.s {
+  margin-left: -12px;
+  border: 1px solid rgb(192, 192, 192);
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.s img {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+input::placeholder {
+  font-size: 15px;
+}
+.s img {
+  width: 20px;
+  height: 20px;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+section a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+/* services */
+.dhan {
+  text-align: center;
+  margin-top: 10%;
+}
+.dhan h1 {
+  font-size: 30px;
+}
+.kuli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services {
+  text-align: center;
+  border: 1px solid rgb(231, 42, 9);
+  width: 400px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+.sa {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.su {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid rgb(231, 42, 9);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.su:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+/* footer */
+
+footer {
+  background-color: rgb(231, 42, 9);
+  color: white;
+  margin-top: 5%;
+}
+.ani {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.ani h1 {
+  font-size: 50px;
+}
+.sawir {
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.sawir img {
+  width: 50px;
+}
+
+.qoral {
+  display: flex;
+  justify-content: space-around;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}
